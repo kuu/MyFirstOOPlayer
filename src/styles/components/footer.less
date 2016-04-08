@@ -1,0 +1,35 @@
+.mdl-mini-footer {
+  background-color: #eee;
+  color: #000;
+  .mdl-logo {
+    color: #000;
+  }
+}
+.mdl-mini-footer--link-list {
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 900px) {
+  .mdl-mini-footer {
+    padding: 16px;
+  }
+  .mdl-mini-footer--left-section {
+    margin: 0 auto;
+    .mdl-logo {
+      width: 100%;
+      margin-right: 0;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+  .mdl-mini-footer--link-list {
+    text-align: center;
+    li {
+      margin-bottom: 16px;
+      margin-right: 0;
+      flex-basis: 100%;
+    }
+  }
+}

@@ -1,0 +1,141 @@
+.sprite (@side, @size, @image, @left: 0px, @top: 0px) {
+  width: @side;
+  height: @side;
+  background-repeat: no-repeat;
+  background-image: url(~"@{path__image}/icon/spr_@{image}.png");
+  background-position: @left @top;
+  background-size: auto @size;
+  color: transparent;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.myoo-sprite__search {
+  .sprite(18px, 36px, search);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -18px;
+  }
+}
+
+.myoo-sprite__pin {
+  .sprite(24px, 48px, pin);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -24px;
+  }
+}
+
+.myoo-sprite__share {
+  .sprite(24px, 48px, share);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -24px;
+  }
+}
+
+.myoo-sprite__arrow-back {
+  .sprite(32px, 64px, arrow_back);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -32px;
+  }
+}
+
+.myoo-sprite__arrow-go {
+  .sprite(32px, 64px, arrow_go);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -32px;
+  }
+}
+
+.myoo-sprite__news {
+  .sprite(32px, 64px, news);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -32px;
+  }
+}
+
+.myoo-sprite__news-new {
+  .sprite(32px, 64px, news_new);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -32px;
+  }
+}
+
+.myoo-sprite__list-top {
+  .sprite(48px, 96px, list_top);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -48px;
+  }
+}
+
+.myoo-sprite__drawer {
+  .sprite(48px, 96px, drawer);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -48px;
+  }
+}
+
+.myoo-sprite__drawer-new {
+  .sprite(48px, 96px, drawer_new);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -48px;
+  }
+}
+
+.myoo-sprite__map-top {
+  .sprite(48px, 96px, map_top);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -48px;
+  }
+}
+
+.myoo-sprite__pin-top {
+  .sprite(48px, 96px, pin_top);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -48px;
+  }
+}
+
+.myoo-sprite__heart {
+  .sprite(32px, 64px, heart);
+  background-size: 32px auto;
+  background-position: 0px -64px;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -32px;
+  }
+}
+
+.myoo-sprite__heart-active {
+  .sprite(32px, 64px, heart);
+  background-size: 32px auto;
+  background-position: 0px 0px;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-position: 0px -32px;
+  }
+}

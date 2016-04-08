@@ -1,0 +1,53 @@
+.myoo-section {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  &:last-child {
+    padding-bottom: 0;
+  }
+  .myoo-section__title {
+    &:extend(.myoo-font-family__montserrat--bold);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    opacity: 1;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1;
+  }
+  .myoo-section__sub-title {
+    opacity: 1;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 1;
+    padding: 20px;
+  }
+  .myoo-section__description {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 17px;
+    padding: 20px;
+  }
+  .myoo-section__fab {
+    position: absolute;
+    right: 20%;
+    bottom: -26px;
+    z-index: 3;
+    background: rgba(248, 0, 122, .9) !important;
+    color: white !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .myoo-section {
+    .myoo-section__title {
+      padding-top: 30px;
+      padding-bottom: 20px;
+      font-size: 40px;
+    }
+    .myoo-section__fab {
+      display: none;
+    }
+  }
+}

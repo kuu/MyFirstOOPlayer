@@ -1,0 +1,20 @@
+.iterate(@i) when not (@i < 41) { }
+
+.iterate(@i) when (@i < 41) {
+    .myoo-space@{i} {
+      margin-bottom: ~"@{i}px !important";
+    }
+    .myoo-space--left@{i} {
+      margin-left: ~"@{i}px !important";
+    }
+    .myoo-space--right@{i} {
+      margin-right: ~"@{i}px !important";
+    }
+    .myoo-space--top@{i} {
+      margin-top: ~"@{i}px !important";
+    }
+
+    .iterate(@i + 2);
+}
+
+.iterate(0);

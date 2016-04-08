@@ -1,0 +1,30 @@
+.myoo-display--none {
+  display: none !important;
+}
+
+.myoo-display--animate {
+  transition: 250ms ease-out;
+}
+
+.myoo-display--enter {
+  opacity: 0;
+  transform: translate(-10px, 30px);
+  transition: none !important;
+}
+
+.myoo-display__pc--none {
+  display: none !important;
+}
+
+.myoo-display--inline {
+  display: inline !important;
+}
+
+@media (max-width: 900px) {
+  .myoo-display__sp--none {
+    display: none !important;
+  }
+  .myoo-display__pc--none {
+    display: block !important;
+  }
+}
