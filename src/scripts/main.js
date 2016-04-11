@@ -43,6 +43,14 @@ function postProcess(embeddedId) {
           'ooyalaplayer',
           embeddedId,
           {
+
+            pcode: 'BtbmUyOlamRiH-S0S-iUeNvf_ghr',
+            playerBrandingId: '7267438d470c471eb75a165a8b670617',
+            debug:true,
+            skin: {
+              // config contains the configuration setting for player skin. Change this path to your local config when necessary.
+              config: 'http://player.ooyala.com/static/v4/stable/4.2.9/skin-plugin/skin.json'
+            },
             onCreate,
             platform: 'html5-priority'
           }

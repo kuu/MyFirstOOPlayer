@@ -14,7 +14,7 @@ export default class PlayerUI {
     this.mb.subscribe(OO.EVENTS.PLAYER_CREATED, 'customUi', this.onPlayerCreate.bind(this));
     this.mb.subscribe(OO.EVENTS.PLAYHEAD_TIME_CHANGED, 'customUi', this.onTimeUpdate.bind(this));
     this.mb.subscribe(OO.EVENTS.CONTENT_TREE_FETCHED, 'customUi', this.onContentReady.bind(this));
-    this.api = new OOAPI('Ntd2QyOuEQD51iQ2ZKhjHcKTRqs0.7kTV2', 'pfOqji94y01slK78BRKAMPg-z4z0Puqlc6A2IH-D');
+    this.api = new OOAPI('BtbmUyOlamRiH-S0S-iUeNvf_ghr.1Vrkx', 'E6xoX4GJ5tnW3ysIy5biIXgXZuP6NVwQWrlmIOW_');
   }
 
   onPlayerCreate(event, elementId, params) {
